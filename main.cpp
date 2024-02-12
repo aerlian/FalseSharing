@@ -11,7 +11,7 @@ struct unaligned_thing {
 
 std::vector<unaligned_thing> unaligned_vec{thread_count};
 
-struct alignas(64) aligned_thing {
+struct alignas(128) aligned_thing {
     long X;
 };
 
